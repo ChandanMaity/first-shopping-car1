@@ -1,8 +1,0 @@
-[
-    {"id":100, "name":"rice","price":1024},
-    {"id":101, "name":"oil","price":1024},
-    {"id":102, "name":"snacks","price":1024},
-    {"id":103, "name":"veg","price":1024},
-    {"id":104, "name":"pulse","price":1024},
-    {"id":104, "name":"sugar","price":1333}
-]
