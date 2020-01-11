@@ -1,0 +1,25 @@
+ .navbar {
+    background-color: gainsboro;
+ 
+}
+ .navbar * {
+    display:inline-blocks;
+}
+.navbar li {
+    margin: 20px;
+    display:  inline-block;
+}
+.navbar ul {
+    display:  inline-block;
+}
+.navbar li a {
+    color:darkred;
+    text-decoration: none;
+}
+.navbar input {
+    padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+} 

@@ -1,0 +1,28 @@
+<!-- <b>Cart: {{carditems.length}}</b>
+
+<br><br>
+
+<div>
+    {{carditems}}
+</div> -->
+<div>
+    <!-- <div class="alert" ng-if="isDuplicateItem == true">
+        alert('added this item alreay')
+    </div> -->
+    <div class="card" *ngFor="let item of carditems">
+        <div class="card-body">
+            <div class="itemDetails"> {{item.name}}
+                {{item.price}}
+            </div>
+            <div class="button">
+                <button href="#" class="btn btn-primary" (click)="deleteItem($event,item)">Remove</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="totalPrice">
+        Total Price = {{totalPrice}}
+    </div>
+
+</div>
